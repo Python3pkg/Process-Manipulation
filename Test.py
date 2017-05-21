@@ -2,7 +2,7 @@ import ProcMod, struct, time
 
 for pid in ProcMod.List():
 	if ProcMod.Name(pid):
-		print(pid, ProcMod.Name(pid))
+		print((pid, ProcMod.Name(pid)))
 
 
 
